@@ -13,7 +13,12 @@ function MyApp({ Component, pageProps }) {
         />
         {/* <link rel="icon" href="/favicon.ico" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AVA CHALIE - VOCALIST</title>
+        <title>AVA CHARLIE - VOCALIST</title>
+        <meta
+          property="og:title"
+          content="AVA CHARLIE - VOCALIST"
+          key="title"
+        />
       </Head>
       <Component {...pageProps} />
     </>
